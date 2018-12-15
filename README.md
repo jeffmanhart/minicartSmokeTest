@@ -4,11 +4,16 @@ This Repository is intended to run smoke tests against the minicart app provided
 I chose this framework for a few reasons.  Mainly because the technology being tested against is a javascript based application where the tests could easily live alongside the app code if desired.  Developers can easily contribute to the suite without learning new languages.  Due to size of this project nightwatch includes a test runner natively and has ability to support page objects easily so makes it easier to spin this framework up to write tests.  There's a number of other frameworks that work well for this type of app but can take a bit longer for setup before focusing on the tests themselves.
 
 #### Links 
-Link to manual test plan: https://docs.google.com/document/d/10aWWhwKI4j_LxucB7Xj5tnhP11ssYltUmTWjtGNpirs/edit?usp=sharing
-Link to Defects: https://minicart.backlog.com/alias/find/MINICART/0KmyV (this is a free version of this bug tracking tool and when you are ready I can provide access to the project I setup just let me know)
-Short description of defects found:
+**Link to manual test plan:** https://docs.google.com/document/d/10aWWhwKI4j_LxucB7Xj5tnhP11ssYltUmTWjtGNpirs/edit?usp=sharing
+
+**Link to Defects:** https://minicart.backlog.com/alias/find/MINICART/0KmyV (this is a free version of this bug tracking tool and when you are ready I can provide access to the project I setup just let me know)
+
+**Short description of defects found:**
+
 MINICART-3  in breakpoints below 991 px - compare table text begins to bleed into other cells on the table
+
 MINICART-2  in breakpoints below 991 px - products with long names expand the stats container - obstructing the click of the compare or remove button
+
 MINICART-1 Clementine product compare action removes product and chooses organic cherry
 
 ### _Quick Start (5mins)_
