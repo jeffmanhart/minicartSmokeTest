@@ -1,5 +1,7 @@
 # MiniCart Smoke test suite: Getting Started
 This Repository is intended to run smoke tests against the minicart app provided for interview evaluation.  Please note this was taken from boilerplate code for expediency and is a touch rough around the edges and has functionality engrained not leveraged.  
+#### Why Nightwatch?
+I chose this framework for a few reasons.  Mainly because the technology being tested against is a javascript based application where the tests could easily live alongside the app code if desired.  Developers can easily contribute to the suite without learning new languages.  Due to size of this project nightwatch includes a test runner natively and has ability to support page objects easily so makes it easier to spin this framework up to write tests.  There's a number of other frameworks that work well for this type of app but can take a bit longer for setup before focusing on the tests themselves.
 
 ### _Quick Start (5mins)_
 
@@ -8,7 +10,7 @@ This Repository is intended to run smoke tests against the minicart app provided
 Clone the repository by _copy-pasting_ the following command into your terminal:
 
 ```sh
-git clone https://github.com/dwyl/learn-nightwatch.git && cd learn-nightwatch && cp sample.env .env
+https://github.com/jeffmanhart/minicartSmokeTest.git
 ```
 
 ### 2. Install<sup>1</sup>
@@ -43,7 +45,9 @@ If not, https://nodejs.org/en/download/ </small>
 Once you have Java installed re-run the Nightwatch tests (`npm test`).</small>
 
 <br />
+
 - - - - - - -
+
 ## *Detailed setup if running into issues*
 
 ### Installation (_in detail_)
