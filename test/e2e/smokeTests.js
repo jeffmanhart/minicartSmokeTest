@@ -1,7 +1,7 @@
 var conf = require('../../nightwatch.conf.js');
 
 module.exports = {
-  'Demo test GitHub': function (browser) {
+  'Minicart Smoke Tests': function (browser) {
     browser
       .url('https://sheltered-tor-18362.herokuapp.com/')   // visit the url
       .waitForElementVisible('body'); // wait for the body to be rendered
