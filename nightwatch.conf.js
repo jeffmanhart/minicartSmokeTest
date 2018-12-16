@@ -22,6 +22,7 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
   "test_workers" : {"enabled" : true, "workers" : "auto"}, // perform tests in parallel where possible
   "test_settings": {
     "default": {
+      "skip_testcases_on_fail": false,
       "launch_url": "http://localhost", // we're testing a Public or "staging" site on Saucelabs
       "selenium_port": 80,
       "selenium_host": "ondemand.saucelabs.com",
@@ -37,6 +38,7 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
       }
     },
     "local": {
+      "skip_testcases_on_fail": false,
       "launch_url": "http://localhost",
       "selenium_port": 4444,
       "selenium_host": "127.0.0.1",
